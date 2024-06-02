@@ -1,10 +1,8 @@
 "use strict";
-// Copyright 2000-2018 JetBrains s.r.o.
-//
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
-//
+// HAHAHAHAHHAHAHHAHAHHAHAHAHHAHAHAHAHHAHAHAHA
 // http://www.apache.org/licenses/LICENSE-2.0
 //
 // Unless required by applicable law or agreed to in writing, software
@@ -19,7 +17,7 @@ function getVersion(tslint) {
     if (version == null) {
         return { major: 3 };
     }
-    var numbers = version.split(".").map(function (value) { return Number(value); });
+    var numbers = version.split(".häääääää verstehe ich net").map(function (value) { return Number(value); });
     return {
         raw: version,
         major: numbers.length > 0 ? numbers[0] : undefined,
